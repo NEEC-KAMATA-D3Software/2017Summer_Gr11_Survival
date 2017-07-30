@@ -1,0 +1,441 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Def">
+      <UniqueIdentifier>{4b5fa1fc-f7dc-4b59-a561-ea9dbe31e9b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\GameDevice">
+      <UniqueIdentifier>{4ff3214c-c7e8-4e22-89c1-b3e47f63b103}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\GameDevice">
+      <UniqueIdentifier>{78b0350a-8661-477a-a078-ef57b194e928}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Utility">
+      <UniqueIdentifier>{85fcc665-fae4-44e6-a690-9016c8dde8ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Utility">
+      <UniqueIdentifier>{0469fe6a-54ee-4897-b7fc-341e11c66fee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="リソース ファイル\Image">
+      <UniqueIdentifier>{b9fb08f8-f192-4fe3-8188-ffa81f44e8ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Templates">
+      <UniqueIdentifier>{8ce34c16-226f-4e16-b605-5732c40f9ea8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Def">
+      <UniqueIdentifier>{e0405e6e-7e60-4801-83d6-1342449dbac9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="リソース ファイル\CSV">
+      <UniqueIdentifier>{072f255f-4846-4fee-92d8-9ee1ef0971ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\GameObjects">
+      <UniqueIdentifier>{662dca78-b527-4d74-84a9-34a77d477f15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\GameObjects\PlayerState">
+      <UniqueIdentifier>{34ca04a9-73f8-4cc4-8f73-9605ba49b778}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\GameObjects\BallState">
+      <UniqueIdentifier>{99e130af-eebf-4f6b-9499-4f60759b3209}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Scenes">
+      <UniqueIdentifier>{3e41a4db-9302-404d-9b08-5e3f9a38cf84}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Scenes\Loader">
+      <UniqueIdentifier>{a311715f-071f-410a-95cf-828f242bd4b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\GameObjects">
+      <UniqueIdentifier>{c80cee7d-779e-4ae7-bbb5-717f0f881eea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\GameObjects\PlayerState">
+      <UniqueIdentifier>{def43f80-83e8-4744-b02d-56df4ec3478c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\GameObjects\BallState">
+      <UniqueIdentifier>{f61bf80a-20fe-4340-940a-6d1cb2666d02}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Scenes">
+      <UniqueIdentifier>{f2e7c68c-fd94-4934-b530-0583b5b65e7f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Scenes\Loader">
+      <UniqueIdentifier>{3f5d0e19-9314-4170-9aa6-c8938cb7a2f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="リソース ファイル\Sound">
+      <UniqueIdentifier>{bbc41c76-9434-472b-b35a-7ac2033e3571}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GameRunner.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Parameter.h">
+      <Filter>ヘッダー ファイル\Def</Filter>
+    </ClInclude>
+    <ClInclude Include="IScene.h">
+      <Filter>ヘッダー ファイル\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="Title.h">
+      <Filter>ヘッダー ファイル\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="GamePlay.h">
+      <Filter>ヘッダー ファイル\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneManager.h">
+      <Filter>ヘッダー ファイル\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="InputState.h">
+      <Filter>ヘッダー ファイル\GameDevice</Filter>
+    </ClInclude>
+    <ClInclude Include="GameDevice.h">
+      <Filter>ヘッダー ファイル\GameDevice</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h">
+      <Filter>ヘッダー ファイル\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Loading.h">
+      <Filter>ヘッダー ファイル\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceManager.h">
+      <Filter>ヘッダー ファイル\GameDevice</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceLoader.h">
+      <Filter>ヘッダー ファイル\Scenes\Loader</Filter>
+    </ClInclude>
+    <ClInclude Include="CSVReader.h">
+      <Filter>ヘッダー ファイル\Def</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector2.h">
+      <Filter>ヘッダー ファイル\Templates</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>ヘッダー ファイル\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Range.h">
+      <Filter>ヘッダー ファイル\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Methord.h">
+      <Filter>ヘッダー ファイル\Def</Filter>
+    </ClInclude>
+    <ClInclude Include="Matrix2.h">
+      <Filter>ヘッダー ファイル\Templates</Filter>
+    </ClInclude>
+    <ClInclude Include="StageManager.h">
+      <Filter>ヘッダー ファイル\Def</Filter>
+    </ClInclude>
+    <ClInclude Include="StateBase.h">
+      <Filter>ヘッダー ファイル\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="MoveState_P.h">
+      <Filter>ヘッダー ファイル\GameObjects\PlayerState</Filter>
+    </ClInclude>
+    <ClInclude Include="JumpState_P.h">
+      <Filter>ヘッダー ファイル\GameObjects\PlayerState</Filter>
+    </ClInclude>
+    <ClInclude Include="NoneState_P.h">
+      <Filter>ヘッダー ファイル\GameObjects\PlayerState</Filter>
+    </ClInclude>
+    <ClInclude Include="FallState_P.h">
+      <Filter>ヘッダー ファイル\GameObjects\PlayerState</Filter>
+    </ClInclude>
+    <ClInclude Include="AttackState_P.h">
+      <Filter>ヘッダー ファイル\GameObjects\PlayerState</Filter>
+    </ClInclude>
+    <ClInclude Include="Ball.h">
+      <Filter>ヘッダー ファイル\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="MoveState_B.h">
+      <Filter>ヘッダー ファイル\GameObjects\BallState</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>ヘッダー ファイル\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectManager.h">
+      <Filter>ヘッダー ファイル\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="AttackWaitState_P.h">
+      <Filter>ヘッダー ファイル\GameObjects\PlayerState</Filter>
+    </ClInclude>
+    <ClInclude Include="BlueCirqueEffect.h">
+      <Filter>ヘッダー ファイル\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Controller.h">
+      <Filter>ヘッダー ファイル\GameDevice</Filter>
+    </ClInclude>
+    <ClInclude Include="Selector.h">
+      <Filter>ヘッダー ファイル\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Death_B.h">
+      <Filter>ヘッダー ファイル\GameObjects\BallState</Filter>
+    </ClInclude>
+    <ClInclude Include="Death_P.h">
+      <Filter>ヘッダー ファイル\GameObjects\PlayerState</Filter>
+    </ClInclude>
+    <ClInclude Include="ExplosionEffect.h">
+      <Filter>ヘッダー ファイル\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="YouWin.h">
+      <Filter>ヘッダー ファイル\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="YouLose.h">
+      <Filter>ヘッダー ファイル\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="GameConst.h">
+      <Filter>ヘッダー ファイル\Def</Filter>
+    </ClInclude>
+    <ClInclude Include="RuptureEffect.h">
+      <Filter>ヘッダー ファイル\GameObjects</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GameRunner.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="GamePlay.cpp">
+      <Filter>ソース ファイル\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="Title.cpp">
+      <Filter>ソース ファイル\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneManager.cpp">
+      <Filter>ソース ファイル\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="InputState.cpp">
+      <Filter>ソース ファイル\GameDevice</Filter>
+    </ClCompile>
+    <ClCompile Include="GameDevice.cpp">
+      <Filter>ソース ファイル\GameDevice</Filter>
+    </ClCompile>
+    <ClCompile Include="Timer.cpp">
+      <Filter>ソース ファイル\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="Loading.cpp">
+      <Filter>ソース ファイル\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="ResourceManager.cpp">
+      <Filter>ソース ファイル\GameDevice</Filter>
+    </ClCompile>
+    <ClCompile Include="ResourceLoader.cpp">
+      <Filter>ソース ファイル\Scenes\Loader</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>ソース ファイル\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Range.cpp">
+      <Filter>ソース ファイル\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="Parameter.cpp">
+      <Filter>ソース ファイル\Def</Filter>
+    </ClCompile>
+    <ClCompile Include="CSVReader.cpp">
+      <Filter>ソース ファイル\Def</Filter>
+    </ClCompile>
+    <ClCompile Include="StageManager.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="MoveState_P.cpp">
+      <Filter>ソース ファイル\GameObjects\PlayerState</Filter>
+    </ClCompile>
+    <ClCompile Include="JumpState_P.cpp">
+      <Filter>ソース ファイル\GameObjects\PlayerState</Filter>
+    </ClCompile>
+    <ClCompile Include="NoneState_P.cpp">
+      <Filter>ソース ファイル\GameObjects\PlayerState</Filter>
+    </ClCompile>
+    <ClCompile Include="FallState_P.cpp">
+      <Filter>ソース ファイル\GameObjects\PlayerState</Filter>
+    </ClCompile>
+    <ClCompile Include="AttackState_P.cpp">
+      <Filter>ソース ファイル\GameObjects\PlayerState</Filter>
+    </ClCompile>
+    <ClCompile Include="Ball.cpp">
+      <Filter>ソース ファイル\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="MoveState_B.cpp">
+      <Filter>ソース ファイル\GameObjects\BallState</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectManager.cpp">
+      <Filter>ソース ファイル\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="AttackWaitState_P.cpp">
+      <Filter>ソース ファイル\GameObjects\PlayerState</Filter>
+    </ClCompile>
+    <ClCompile Include="BlueCirqueEffect.cpp">
+      <Filter>ソース ファイル\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Controller.cpp">
+      <Filter>ソース ファイル\GameDevice</Filter>
+    </ClCompile>
+    <ClCompile Include="Selector.cpp">
+      <Filter>ソース ファイル\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="Death_B.cpp">
+      <Filter>ソース ファイル\GameObjects\BallState</Filter>
+    </ClCompile>
+    <ClCompile Include="ExplosionEffect.cpp">
+      <Filter>ソース ファイル\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Death_P.cpp">
+      <Filter>ソース ファイル\GameObjects\PlayerState</Filter>
+    </ClCompile>
+    <ClCompile Include="YouLose.cpp">
+      <Filter>ソース ファイル\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="YouWin.cpp">
+      <Filter>ソース ファイル\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="GameConst.cpp">
+      <Filter>ソース ファイル\Def</Filter>
+    </ClCompile>
+    <ClCompile Include="RuptureEffect.cpp">
+      <Filter>ソース ファイル\GameObjects</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Image\gameplay.png">
+      <Filter>リソース ファイル\Image</Filter>
+    </Image>
+    <Image Include="Image\loading.png">
+      <Filter>リソース ファイル\Image</Filter>
+    </Image>
+    <Image Include="Image\title.png">
+      <Filter>リソース ファイル\Image</Filter>
+    </Image>
+    <Image Include="Image\player.png">
+      <Filter>リソース ファイル\Image</Filter>
+    </Image>
+    <Image Include="Image\shadow.png">
+      <Filter>リソース ファイル\Image</Filter>
+    </Image>
+    <Image Include="Image\debugMap.png">
+      <Filter>リソース ファイル\Image</Filter>
+    </Image>
+    <Image Include="Image\mapData.png">
+      <Filter>リソース ファイル\Image</Filter>
+    </Image>
+    <Image Include="Image\mapData1.png">
+      <Filter>リソース ファイル\Image</Filter>
+    </Image>
+    <Image Include="Image\Player1.png">
+      <Filter>リソース ファイル\Image</Filter>
+    </Image>
+    <Image Include="Image\Player2.png">
+      <Filter>リソース ファイル\Image</Filter>
+    </Image>
+    <Image Include="Image\PlayerPoint.png">
+      <Filter>リソース ファイル\Image</Filter>
+    </Image>
+    <Image Include="Image\ball.png">
+      <Filter>リソース ファイル\Image</Filter>
+    </Image>
+    <Image Include="Image\ballDead.png">
+      <Filter>リソース ファイル\Image</Filter>
+    </Image>
+    <Image Include="Image\ballShadow.png">
+      <Filter>リソース ファイル\Image</Filter>
+    </Image>
+    <Image Include="Image\CirqueEffect.png">
+      <Filter>リソース ファイル\Image</Filter>
+    </Image>
+    <Image Include="Image\Cooperate.png">
+      <Filter>リソース ファイル\Image</Filter>
+    </Image>
+    <Image Include="Image\Single.png">
+      <Filter>リソース ファイル\Image</Filter>
+    </Image>
+    <Image Include="Image\MultyPlay.png">
+      <Filter>リソース ファイル\Image</Filter>
+    </Image>
+    <Image Include="Image\Mask.png">
+      <Filter>リソース ファイル\Image</Filter>
+    </Image>
+    <Image Include="Image\PlayerDead.png">
+      <Filter>リソース ファイル\Image</Filter>
+    </Image>
+    <Image Include="Image\YouLose.png">
+      <Filter>リソース ファイル\Image</Filter>
+    </Image>
+    <Image Include="Image\YouWin.png">
+      <Filter>リソース ファイル\Image</Filter>
+    </Image>
+    <Image Include="Image\promptText.png">
+      <Filter>リソース ファイル\Image</Filter>
+    </Image>
+    <Image Include="Image\P1.png">
+      <Filter>リソース ファイル\Image</Filter>
+    </Image>
+    <Image Include="Image\P2.png">
+      <Filter>リソース ファイル\Image</Filter>
+    </Image>
+    <Image Include="Image\BackToTitle.png">
+      <Filter>リソース ファイル\Image</Filter>
+    </Image>
+    <Image Include="Image\TryAgain.png">
+      <Filter>リソース ファイル\Image</Filter>
+    </Image>
+    <Image Include="Image\FadeImg.png">
+      <Filter>リソース ファイル\Image</Filter>
+    </Image>
+    <Image Include="Image\ReadyGo.png">
+      <Filter>リソース ファイル\Image</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="CSV\floor1_0.csv">
+      <Filter>リソース ファイル\CSV</Filter>
+    </None>
+    <None Include="CSV\floor1_1.csv">
+      <Filter>リソース ファイル\CSV</Filter>
+    </None>
+    <None Include="CSV\floor1_2.csv">
+      <Filter>リソース ファイル\CSV</Filter>
+    </None>
+    <None Include="CSV\GroupImgs.csv">
+      <Filter>リソース ファイル\CSV</Filter>
+    </None>
+    <None Include="CSV\floor1_3.csv">
+      <Filter>リソース ファイル\CSV</Filter>
+    </None>
+    <None Include="Sound\BackBGM1.mid">
+      <Filter>リソース ファイル\Sound</Filter>
+    </None>
+    <None Include="Sound\TitleBGM1.mid">
+      <Filter>リソース ファイル\Sound</Filter>
+    </None>
+    <None Include="CSV\Images.csv">
+      <Filter>リソース ファイル\CSV</Filter>
+    </None>
+    <None Include="CSV\floor1_4.csv">
+      <Filter>リソース ファイル\CSV</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="Sound\Cirque.wav">
+      <Filter>リソース ファイル\Sound</Filter>
+    </Media>
+    <Media Include="Sound\shootSound.wav">
+      <Filter>リソース ファイル\Sound</Filter>
+    </Media>
+    <Media Include="Sound\selector.wav">
+      <Filter>リソース ファイル\Sound</Filter>
+    </Media>
+    <Media Include="Sound\Explosion.wav">
+      <Filter>リソース ファイル\Sound</Filter>
+    </Media>
+    <Media Include="Sound\Rupture.wav">
+      <Filter>リソース ファイル\Sound</Filter>
+    </Media>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,255 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{D389680A-49BB-45BA-98AF-F2962DCF3D28}</ProjectGuid>
+    <RootNamespace>Survival</RootNamespace>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <IncludePath>$(ProjectDir);$(IncludePath)</IncludePath>
+    <LibraryPath>$(ProjectDir)Lib\DxLib_VC\プロジェクトに追加すべきファイル_VC用;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <IncludePath>$(ProjectDir);$(IncludePath)</IncludePath>
+    <LibraryPath>$(ProjectDir)Lib\DxLib_VC\プロジェクトに追加すべきファイル_VC用;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <AdditionalLibraryDirectories />
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="AttackState_P.h" />
+    <ClInclude Include="AttackWaitState_P.h" />
+    <ClInclude Include="Ball.h" />
+    <ClInclude Include="BlueCirqueEffect.h" />
+    <ClInclude Include="Controller.h" />
+    <ClInclude Include="CSVReader.h" />
+    <ClInclude Include="Death_B.h" />
+    <ClInclude Include="Death_P.h" />
+    <ClInclude Include="ExplosionEffect.h" />
+    <ClInclude Include="FallState_P.h" />
+    <ClInclude Include="GameConst.h" />
+    <ClInclude Include="GameDevice.h" />
+    <ClInclude Include="GameObject.h" />
+    <ClInclude Include="GamePlay.h" />
+    <ClInclude Include="GameRunner.h" />
+    <ClInclude Include="InputState.h" />
+    <ClInclude Include="IScene.h" />
+    <ClInclude Include="JumpState_P.h" />
+    <ClInclude Include="Loading.h" />
+    <ClInclude Include="Matrix2.h" />
+    <ClInclude Include="Methord.h" />
+    <ClInclude Include="MoveState_B.h" />
+    <ClInclude Include="MoveState_P.h" />
+    <ClInclude Include="NoneState_P.h" />
+    <ClInclude Include="ObjectManager.h" />
+    <ClInclude Include="Parameter.h" />
+    <ClInclude Include="Player.h" />
+    <ClInclude Include="Range.h" />
+    <ClInclude Include="ResourceLoader.h" />
+    <ClInclude Include="ResourceManager.h" />
+    <ClInclude Include="RuptureEffect.h" />
+    <ClInclude Include="SceneManager.h" />
+    <ClInclude Include="Selector.h" />
+    <ClInclude Include="StageManager.h" />
+    <ClInclude Include="StateBase.h" />
+    <ClInclude Include="Timer.h" />
+    <ClInclude Include="Title.h" />
+    <ClInclude Include="Vector2.h" />
+    <ClInclude Include="YouLose.h" />
+    <ClInclude Include="YouWin.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AttackState_P.cpp" />
+    <ClCompile Include="AttackWaitState_P.cpp" />
+    <ClCompile Include="Ball.cpp" />
+    <ClCompile Include="BlueCirqueEffect.cpp" />
+    <ClCompile Include="Controller.cpp" />
+    <ClCompile Include="CSVReader.cpp" />
+    <ClCompile Include="Death_B.cpp" />
+    <ClCompile Include="Death_P.cpp" />
+    <ClCompile Include="ExplosionEffect.cpp" />
+    <ClCompile Include="FallState_P.cpp" />
+    <ClCompile Include="GameConst.cpp" />
+    <ClCompile Include="GameDevice.cpp" />
+    <ClCompile Include="GamePlay.cpp" />
+    <ClCompile Include="GameRunner.cpp" />
+    <ClCompile Include="InputState.cpp" />
+    <ClCompile Include="JumpState_P.cpp" />
+    <ClCompile Include="Loading.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="MoveState_B.cpp" />
+    <ClCompile Include="MoveState_P.cpp" />
+    <ClCompile Include="NoneState_P.cpp" />
+    <ClCompile Include="ObjectManager.cpp" />
+    <ClCompile Include="Parameter.cpp" />
+    <ClCompile Include="Player.cpp" />
+    <ClCompile Include="Range.cpp" />
+    <ClCompile Include="ResourceLoader.cpp" />
+    <ClCompile Include="ResourceManager.cpp" />
+    <ClCompile Include="RuptureEffect.cpp" />
+    <ClCompile Include="SceneManager.cpp" />
+    <ClCompile Include="Selector.cpp" />
+    <ClCompile Include="StageManager.cpp" />
+    <ClCompile Include="Timer.cpp" />
+    <ClCompile Include="Title.cpp" />
+    <ClCompile Include="YouLose.cpp" />
+    <ClCompile Include="YouWin.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Image\BackToTitle.png" />
+    <Image Include="Image\ball.png" />
+    <Image Include="Image\ballDead.png" />
+    <Image Include="Image\ballShadow.png" />
+    <Image Include="Image\Cooperate.png" />
+    <Image Include="Image\debugMap.png" />
+    <Image Include="Image\FadeImg.png" />
+    <Image Include="Image\gameplay.png" />
+    <Image Include="Image\loading.png" />
+    <Image Include="Image\mapData.png" />
+    <Image Include="Image\mapData1.png" />
+    <Image Include="Image\Mask.png" />
+    <Image Include="Image\MultyPlay.png" />
+    <Image Include="Image\P1.png" />
+    <Image Include="Image\P2.png" />
+    <Image Include="Image\player.png" />
+    <Image Include="Image\Player1.png" />
+    <Image Include="Image\Player2.png" />
+    <Image Include="Image\CirqueEffect.png" />
+    <Image Include="Image\PlayerDead.png" />
+    <Image Include="Image\PlayerPoint.png" />
+    <Image Include="Image\promptText.png" />
+    <Image Include="Image\ReadyGo.png" />
+    <Image Include="Image\shadow.png" />
+    <Image Include="Image\Single.png" />
+    <Image Include="Image\title.png" />
+    <Image Include="Image\TryAgain.png" />
+    <Image Include="Image\YouLose.png" />
+    <Image Include="Image\YouWin.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="CSV\floor1_0.csv" />
+    <None Include="CSV\floor1_1.csv" />
+    <None Include="CSV\floor1_2.csv" />
+    <None Include="CSV\floor1_3.csv" />
+    <None Include="CSV\floor1_4.csv" />
+    <None Include="CSV\GroupImgs.csv" />
+    <None Include="CSV\Images.csv" />
+    <None Include="Sound\BackBGM1.mid" />
+    <None Include="Sound\TitleBGM1.mid" />
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="Sound\Cirque.wav" />
+    <Media Include="Sound\Explosion.wav" />
+    <Media Include="Sound\Rupture.wav" />
+    <Media Include="Sound\selector.wav" />
+    <Media Include="Sound\shootSound.wav" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
